@@ -1,0 +1,97 @@
+.overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.modal-content {
+    max-width: 400px;
+    background-color: white;
+    position: relative;
+    border-radius: 6px;
+    margin: 10px;
+}
+
+.fechar {
+    position: absolute;
+    right: 15px;
+    top: 15px;
+    background-color: transparent;
+    border: none;
+    font-size: 35px;
+    color: #004A8D;
+}
+
+.container {
+    padding: 30px;
+}
+
+.titulo h1 {
+    font-size: 18px;
+    color: #004A8D;
+}
+
+.titulo p {
+    font-size: 15px;
+}
+
+.inputs {
+    position: relative;
+}
+
+.inputs select {
+    border-radius: 6px;
+    width: 100%;
+    padding: 15px;
+    margin: 12px 0;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    border: 1px solid #B7B7B7;
+}
+
+.inputs span:first-child {
+    position: absolute;
+    top: 25px;
+    right: 15px;
+    font-size: 25px;
+    color: #B7B7B7;
+}
+
+.inputs span:nth-child(2) {
+    position: absolute;
+    top: 95px;
+    right: 15px;
+    font-size: 25px;
+    color: #B7B7B7;
+}
+
+.buttons {
+    display: flex;
+    justify-content: end;
+    gap: 20px;
+}
+
+.buttons button {
+    padding: 8px 12px;
+    font-weight: bold;
+    font-size: 16px;
+    border-radius: 6px;
+}
+
+.buttons button:first-child {
+    background-color: transparent;
+    border: 2px solid #0FA958;
+    color: #0FA958;
+}
+
+.buttons button:last-child {
+    background-color: #BDBDBD;
+    border: 2px solid #BDBDBD;
+    color: white;
+}

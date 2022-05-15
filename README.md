@@ -20,9 +20,15 @@ Esse comando rodará localmente o seu projeto, basta abrir no navegador o seguin
 ### Membros do grupo
 
 ERIVELTON DE SOUSA SILVA
+
 EVERTON CARDOSO SOARES
+
 GUILHERME GOMES DA COSTA LOBO
+
 ALOYSIO HIDEKI YAMADA
+
 ENERI LEAL JUNIOR
+
 THIAGO COSTA
+
 JEFFERSON ALVES PATRIOTA

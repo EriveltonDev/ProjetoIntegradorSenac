@@ -17,7 +17,7 @@ Esse comando rodará localmente o seu projeto, basta abrir no navegador o seguin
 [http://localhost:3000](http://localhost:3000)
 
 
-## Membros do grupo
+# Membros do grupo
 
 ERIVELTON DE SOUSA SILVA
 

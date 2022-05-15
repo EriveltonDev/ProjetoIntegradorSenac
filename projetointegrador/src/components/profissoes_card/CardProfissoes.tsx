@@ -5,7 +5,7 @@ import { BreveDescricao, ContainerProfissoes, ProfissaoImg } from './style'
 export function CardProfissoes() {
     const dados : any[] = [
         { 
-            "profissao": "Fisioterapeuta",
+            "profissao": "Massagista",
             "nome" : "Ana",
             "img" : "ana",
             "descricao" : "Massagista e Fisioterapeuta",

@@ -7,6 +7,7 @@ import { AnaPage } from './components/profissionais/AnaPage';
 import { FisioterapeutaBusca } from './components/pagesBusca/Fisioterapeuta/FisioterapeutaBusca';
 import { PersonalTrainerBusca } from './components/pagesBusca/PersonalTrainer/PersonalTrainerBusca';
 import { YogaBusca } from './components/pagesBusca/Yoga/YogaBusca';
+import { MassagemBusca } from './components/pagesBusca/massagista/MassagistaBusca';
 
 function App() {
 
@@ -19,6 +20,7 @@ function App() {
           <Route path='fisioterapia' element={<FisioterapeutaBusca/>}/>
           <Route path='personaltrainer' element={<PersonalTrainerBusca/>}/>
           <Route path='yoga' element={<YogaBusca/>}/>
+          <Route path='massagista' element={<MassagemBusca/>}/>
         </Routes>
         <Footer />
       </>

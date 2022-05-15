@@ -22,6 +22,10 @@ export function NavBar() {
       profissao: "Personal Trainer",
       page: "personaltrainer",
     },
+    {
+      profissao: "Massagista",
+      page: "massagista",
+    },
   ]
 
   function handleChange(event : any) {
@@ -70,6 +74,7 @@ export function NavBar() {
                   <Link onClick={() => { setMenu1(!menu1) ; setPesquisa(false) }} to='fisioterapia'><p><span><FaRegClock/></span>Fisioterapeuta</p></Link>
                   <Link onClick={() => { setMenu1(!menu1) ; setPesquisa(false) }} to='personaltrainer'><p><span><FaRegClock/></span>Personal trainer</p></Link>
                   <Link onClick={() => { setMenu1(!menu1) ; setPesquisa(false) }} to='yoga'><p><span><FaRegClock/></span>Yoga</p></Link>
+                  <Link onClick={() => { setMenu1(!menu1) ; setPesquisa(false) }} to='massagista'><p><span><FaRegClock/></span>Massagista</p></Link>
                 </div>}
             </Pesquisa>}
     </Header>

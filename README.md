@@ -1,6 +1,6 @@
 # Projeto Integrador Senac
 
-## Para rodar esse projeto feito com React, é necessário ter o NPM que é possível obter instalando o nodeJS em sua máquina.
+## Para rodar esse projeto feito com React, é necessário ter o NPM que é possível obter instalando o NodeJS em sua máquina.
 ## Após a instalação, veja abaixo os scripts para rodar o projeto localmente.
 
 ## Scripts

@@ -73,27 +73,52 @@ export const Nav = styled.nav`
 
 export const Pesquisa = styled.div`
         background-color: white;
-        position: absolute;
-        top: 80px;
+        position: fixed;
+        top: 50px;
         bottom: 0;
         right: 0;
         left: 0;
         z-index: 200;
+        padding-top: 20px;
+        border-top: 1px solid rgb(0, 168, 98);
 
-        p {
-            max-width: 300px;
-            margin: 0 auto;
-            color: #b7b7b7;
-            display: flex;
+        a {
+            text-decoration: none;
+        }
 
-            span {
+        ul {
+            list-style: none;
+
+            li {
+                max-width: 300px;
+                margin: 0 auto;
+                display: flex;
+                gap: 8px;
+                justify-content: start;
                 color: #b7b7b7;
-                margin-right: 5px;
-                font-size: 20px;
+                display: flex;
+
+                span {
+                    color: #b7b7b7;
+                    margin-right: 5px;
+                    font-size: 20px;
+                }
             }
         }
 
-        p + p {
-            margin-top: 6px;
-        }
+            p {
+                max-width: 300px;
+                margin: 0 auto;
+                display: flex;
+                gap: 8px;
+                justify-content: start;
+                color: #b7b7b7;
+                display: flex;
+
+                span {
+                    color: #b7b7b7;
+                    margin-right: 5px;
+                    font-size: 20px;
+                }
+            }
 `

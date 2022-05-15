@@ -49,7 +49,7 @@ export function CardProfissoes() {
                         <p>{dado.descricao}</p>
                         <p>{dado.local}</p>
                     </div>
-                    <Link to='ana'>SAIBA MAIS</Link>
+                    <Link to='/ana'>SAIBA MAIS</Link>
                 </BreveDescricao>
             </ContainerProfissoes>
         )

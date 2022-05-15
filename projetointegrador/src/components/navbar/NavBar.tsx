@@ -60,7 +60,7 @@ export function NavBar() {
                 <div>
                   <ul>
                     {filtrados.map((info) => (
-                      <Link onClick={() => { setMenu1(!menu1) ; setPesquisa(false) }} to={info.page} ><li><FaRegClock/>{info.profissao}</li></Link>
+                      <Link onClick={() => { setMenu1(!menu1) ; setPesquisa(false) }} to={info.page} ><li><span><FaRegClock/></span>{info.profissao}</li></Link>
                     ))}
                   </ul>
                 </div>}

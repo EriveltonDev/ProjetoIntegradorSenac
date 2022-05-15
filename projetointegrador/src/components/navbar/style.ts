@@ -95,10 +95,11 @@ export const Pesquisa = styled.div`
                 display: flex;
                 gap: 8px;
                 justify-content: start;
-                color: #b7b7b7;
+                color: black;
                 display: flex;
 
                 span {
+                    opacity: 0;
                     color: #b7b7b7;
                     margin-right: 5px;
                     font-size: 20px;

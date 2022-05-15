@@ -16,3 +16,13 @@ Rode esse código para instalar todas as dependências do projeto e em seguida r
 Esse comando rodará localmente o seu projeto, basta abrir no navegador o seguinte link: 
 [http://localhost:3000](http://localhost:3000)
 
+
+### Membros do grupo
+
+ERIVELTON DE SOUSA SILVA
+EVERTON CARDOSO SOARES
+GUILHERME GOMES DA COSTA LOBO
+ALOYSIO HIDEKI YAMADA
+ENERI LEAL JUNIOR
+THIAGO COSTA
+JEFFERSON ALVES PATRIOTA

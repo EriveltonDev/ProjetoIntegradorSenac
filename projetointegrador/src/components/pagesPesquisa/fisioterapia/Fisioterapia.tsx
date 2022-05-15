@@ -1,6 +1,6 @@
 import React from 'react'
 import { Link } from 'react-router-dom'
-import { BreveDescricao, ContainerProfissoes, ProfissaoImg } from './style'
+import { BreveDescricao, ContainerProfissoes, Main, ProfissaoImg } from './style'
 
 export function Fisioterapia() {
     const dados : any[] = [
@@ -42,8 +42,8 @@ export function Fisioterapia() {
     }
 
   return (
-        <>
+        <Main>
             {final}
-        </>
+        </Main>
   )
 }

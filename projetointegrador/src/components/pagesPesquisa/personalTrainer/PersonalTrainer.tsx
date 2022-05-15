@@ -1,6 +1,6 @@
 import React from 'react'
 import { Link } from 'react-router-dom'
-import { BreveDescricao, ContainerProfissoes, ProfissaoImg } from './style'
+import { BreveDescricao, ContainerProfissoes, Main, ProfissaoImg } from './style'
 
 export function PersonalTrainer() {
     const dados : any[] = [
@@ -35,8 +35,8 @@ export function PersonalTrainer() {
     }
 
   return (
-        <>
+        <Main>
             {final}
-        </>
+        </Main>
   )
 }
